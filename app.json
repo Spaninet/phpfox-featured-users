@@ -1,0 +1,12 @@
+{
+	"id": "Vieber_FeaturedUsers",
+	"name": "Pay to Get Featured",
+	"version": "1.0",
+	"icon": "",
+	"settings": {
+		"pfup_amount": {
+			"info": "Amount",
+			"value": "10.00"
+		}
+	}
+}
