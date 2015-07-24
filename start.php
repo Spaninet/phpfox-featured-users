@@ -2,6 +2,10 @@
 
 namespace Core;
 
+if (!Is::app('PHPfox_FeaturedUsers')) {
+	return false;
+}
+
 new Payment\Event('featured-users', function(\Core\Payment\Object $payment) {
 	$payment->log('Event touchdown...');
 

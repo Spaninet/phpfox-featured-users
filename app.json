@@ -1,11 +1,16 @@
 {
 	"id": "Vieber_FeaturedUsers",
 	"name": "Pay to Get Featured",
-	"version": "1.0",
+	"version": "1.1",
 	"icon": "",
+	"requires": {
+		"phpfox": ">= 4.0.4",
+		"http://store.phpfox.com/product/779/featured-users": ">= 1.1"
+	},
+	"git": "https://github.com/vieber/phpfox-featured-users.git",
 	"settings": {
 		"pfup_amount": {
-			"info": "Amount",
+			"info": "How much should we charge users to get featured?",
 			"value": "10.00"
 		}
 	}
