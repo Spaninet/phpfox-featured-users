@@ -1,7 +1,8 @@
 {
     "id": "Vieber_FeaturedUsers",
     "name": "Pay to Get Featured",
-    "version": 1.4,
+    "version": 1.5,
+    "vendor": "Vieber",
     "icon": "",
     "requires": {
         "phpfox": ">= 4.0.4",
